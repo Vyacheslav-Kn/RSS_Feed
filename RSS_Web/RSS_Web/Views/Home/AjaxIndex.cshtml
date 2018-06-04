@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "AjaxIndex";
+}
+
+<h1>Новостная лента</h1>
+<p></p>
+@using (Ajax.BeginForm("AjaxIndex", new AjaxOptions { UpdateTargetId = "news", HttpMethod = "Post" }))
+{
+    <span>Источник ленты </span>
+    @Html.DropDownList("Source", ViewBag.Files as SelectList)
+    <p></p>
+    @Html.RadioButton("SortOrder", "date", true)
+    <span>Сортировать по дате</span>
+    @Html.RadioButton("SortOrder", "source")
+    <span>Сортировать по источнику</span>
+    <p></p>
+    <input type="submit" value="Просмотреть" />
+}
+<p></p>
+<div id="news">
+    <table>
+        <tr>
+            <th>Источник</th>
+            <th>Название новости</th>
+            <th>Описание новости</th>
+            <th>Дата публикации</th>
+        </tr>
+        <tr><td> </td><td> </td><td> </td><td> </td></tr>
+        <tr><td> </td><td> </td><td> </td><td> </td></tr>
+    </table>
+</div>
+
+@Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")

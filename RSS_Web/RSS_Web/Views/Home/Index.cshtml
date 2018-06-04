@@ -1,0 +1,62 @@
+﻿@model PagedList.IPagedList<RSS_Web.Models.Novelty>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Новостная лента</h1>
+<p></p>
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <span>Источник ленты </span>
+    @Html.DropDownList("Source", ViewBag.Files as SelectList)
+    <p></p>
+    @Html.RadioButton("SortOrder", "date", true)
+    <span>Сортировать по дате</span>
+    @Html.RadioButton("SortOrder", "source")
+    <span>Сортировать по источнику</span>
+    <p></p>
+    <input type="submit" value="Просмотреть" />
+}
+<p></p>
+
+    <table>
+        <tr>
+            <th>Источник</th>
+            <th>Название новости</th>
+            <th>Описание новости</th>
+            <th>Дата публикации</th>
+        </tr>
+        @if (Model == null)
+        {
+            <tr><td> </td><td> </td><td> </td><td> </td></tr>
+            <tr><td> </td><td> </td><td> </td><td> </td></tr>
+        }
+        else
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Source.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Header)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+ <p></p>
+@if (Model != null)
+{
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.SortOrder, source = ViewBag.Source }));
+}

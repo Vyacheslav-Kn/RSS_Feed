@@ -1,0 +1,887 @@
+﻿<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<channel>
+<title>Хабр / Интересные публикации</title>
+<link>https://habr.com/</link>
+<description>
+<![CDATA[ Интересные публикации на Хабре ]]>
+</description>
+<language>ru</language>
+<managingEditor>editor@habr.com</managingEditor>
+<generator>habr.com</generator>
+<pubDate>Fri, 01 Jun 2018 15:06:05 GMT</pubDate>
+<lastBuildDate/>
+<image>
+<link>https://habr.com/</link>
+<url>https://habr.com/images/logo.png</url>
+<title>Хабр</title>
+</image>
+<item>
+<title>
+<![CDATA[
+Tesla частично открыла исходный код Model S/X 2018.12
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412933/</guid>
+<link>
+https://habr.com/post/412933/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412933
+</link>
+<description>
+<![CDATA[
+<img src="https://habrastorage.org/webt/no/ht/-t/noht-tfqbb8btrhojmoyfvd8t50.jpeg"><br>
+ <br>
+ Всем известно, что автомобильное программное обеспечение Tesla создано на базе open source проектов, а именно на операционной системе Linux под лицензией GPL. Эта лицензия требует у разработчиков производных программ <i>обязательно</i> публиковать свой исходный код. Иначе это превращается в улицу с односторонним движением, когда разрешено только брать, но не отдавать. Но именно так до недавнего времени поступала Tesla.<br>
+ <br>
+ В мае 2018 года процесс сдвинулся с мёртвой точки: Tesla <a href="https://teslamotorsclub.com/tmc/threads/tesla-releases-some-gpl-opensource-bits.115545/">опубликовала значительную часть кода софтверного релиза Model S/X 2018.12</a>. Это системный образ платформы Tesla Autopilot, системный код для аппаратного обеспечения и код информационно-развлекательной системы на базе Nvidia Tegra, которая работает в автомобиле.<br>
+ <blockquote>Репозитории на Github:<br>
+ <br>
+ <a href="https://github.com/teslamotors/buildroot">https://github.com/teslamotors/buildroot</a><br>
+ <a href="https://github.com/teslamotors/linux">https://github.com/teslamotors/linux</a></blockquote> <a href="https://habr.com/post/412933/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412933#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 13:00:58 GMT</pubDate>
+<dc:creator>alizar</dc:creator>
+<category>
+<![CDATA[ Open source ]]>
+</category>
+<category>
+<![CDATA[ Tesla ]]>
+</category>
+<category>
+<![CDATA[ Nvidia ]]>
+</category>
+<category>
+<![CDATA[ GPL ]]>
+</category>
+<category>
+<![CDATA[ Parrot ]]>
+</category>
+<category>
+<![CDATA[ автопилот ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[
+Финтех-дайджест: ГД одобрила несогласованные с экспертами законы о криптовалюте, финтех-решения становятся популярнее
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412929/</guid>
+<link>
+https://habr.com/post/412929/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412929
+</link>
+<description>
+<![CDATA[
+<a href="https://habr.com/company/alfa/blog/412929/"><img src="https://habrastorage.org/webt/hb/wc/7v/hbwc7vcsxvlgb8ed3_cktevzqum.jpeg" align="left"></a> Во всем мире, включая Россию, финтех-решения становятся все более популярными. Статистика по миру, относительно подробная, регулярно выкладывается известными аналитическими агентствами. А вот по России таких данных до настоящего времени пока не было. Сейчас они появились, и ознакомиться с ними можно после ката. Кроме того, там же рассказывается о мнениях российских экспертов о законах, одобренных Госдумой в первом чтении. Мнения эти, мягко скажем, не слишком хорошие.<br>
+ <br>
+ <b>Начнем, пожалуй, все же с Госдумы</b>. <a href="https://habr.com/post/412929/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412929#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 12:21:08 GMT</pubDate>
+<dc:creator>D_Halli</dc:creator>
+<category>
+<![CDATA[ Финансы в IT ]]>
+</category>
+<category>
+<![CDATA[ Блог компании «Альфа-Банк» ]]>
+</category>
+<category>
+<![CDATA[ финтех ]]>
+</category>
+<category>
+<![CDATA[ финансы ]]>
+</category>
+<category>
+<![CDATA[ законодательство ]]>
+</category>
+<category>
+<![CDATA[ криптовалюта ]]>
+</category>
+<category>
+<![CDATA[ центробанк ]]>
+</category>
+<category>
+<![CDATA[ ico ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[
+Релиз YouTrack 2018.2: новая страница проектов, Docker-образ YouTrack и многое другое
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412831/</guid>
+<link>
+https://habr.com/post/412831/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412831
+</link>
+<description>
+<![CDATA[
+<p>Всем привет! Мы выпустили новую версию системы управления проектами — YouTrack 2018.2 — и спешим поделиться с вами нововведениями.</p><br>
+ <img src="https://habrastorage.org/webt/6i/u_/ab/6iu_abkxjswsztgutm9ybzwyd0c.png"> <a href="https://habr.com/post/412831/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412831#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 08:32:24 GMT</pubDate>
+<dc:creator>nkatson</dc:creator>
+<category>
+<![CDATA[ Блог компании JetBrains ]]>
+</category>
+<category>
+<![CDATA[ youtrack ]]>
+</category>
+<category>
+<![CDATA[ agile ]]>
+</category>
+<category>
+<![CDATA[ scrum ]]>
+</category>
+<category>
+<![CDATA[ kanban ]]>
+</category>
+<category>
+<![CDATA[ jetbrains ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[ Конференция Fujitsu в Краснодаре ]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412907/</guid>
+<link>
+https://habr.com/post/412907/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412907
+</link>
+<description>
+<![CDATA[
+<img align="left" src="https://habrastorage.org/webt/bd/3_/tx/bd3_tx-knqswppqd0q7ky7eynxa.jpeg" width="400">Привет, Хабр! <b>6 июня</b> мы приглашаем ИТ-директоров и руководителей ИТ-департаментов компаний города Краснодара присоединиться к нам на конференции <b>«Fujitsu. Строим ЦОД будущего вместе».</b> Мы обсудим, как выбрать наиболее эффективные решения, обеспечив окупаемость инвестиций в ИТ. <br>
+ <br>
+ <a href="http://www.fujitsu.com/ru/about/resources/events/bcdc-kro-2018/index.html"><b>Регистрация открыта!</b></a><br> <a href="https://habr.com/post/412907/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412907#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 10:54:00 GMT</pubDate>
+<dc:creator>FeeAR</dc:creator>
+<category>
+<![CDATA[ Системное администрирование ]]>
+</category>
+<category>
+<![CDATA[ IT-инфраструктура ]]>
+</category>
+<category>
+<![CDATA[ Блог компании Fujitsu ]]>
+</category>
+<category>
+<![CDATA[ Fujitsu ]]>
+</category>
+<category>
+<![CDATA[ конференция ]]>
+</category>
+<category>
+<![CDATA[ Краснодар ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[
+[Перевод] В поисках нового цвета на миллиард долларов
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412723/</guid>
+<link>
+https://habr.com/post/412723/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412723
+</link>
+<description>
+<![CDATA[
+<h3>У нас никогда ещё не было по-настоящему безопасного, стабильного и яркого красного пигмента. Его изобретение может начаться с YInMn, первого голубого пигмента, созданного за два столетия</h3><br>
+ <img src="https://habrastorage.org/getpro/habr/post_images/4ea/b87/6d1/4eab876d16998a46e4bf9ac1125b0225.jpg"><br>
+ <br>
+ <a href="https://en.wikipedia.org/wiki/Mas_Subramanian">Мас Субраманьян</a>, крупнейшая звезда в малоизвестном мире исследования пигментов, смотрит на скопище банок с широким горлышком, содержащих порошки всех цветов радуги, за исключением одного. Тут есть оранжевый, жёлтый, зелёный, голубой, синий и фиолетовый. «Мы близки к цели», — оптимистично говорит он. И указывает на банку с красно-коричневой пылью, дымчатой и с оттенком, напоминающим паприку. Симпатичный цвет, но не тот, что он ищет.<br>
+ <br>
+ За девять лет его временного пребывания в изощрённом мире цветов, Субраманьян, профессор материаловедения из Орегонского университета в Корваллисе, был полностью очарован миром химии, который он, как и многие его коллеги, ранее считал низкотехнологичной областью. Известность он получил благодаря случайному созданию нового пигмента в 2009 году, субстанции, способной придавать цвет другому материалу. <a href="https://en.wikipedia.org/wiki/YInMn_Blue">YInMn синий</a> (читается «йинмин») – смесь иттрия, оксида индия и марганца, элементов периодической таблицы, которые, будучи собранными вместе, порождают нечто уникальное. YInMn стал первым синим пигментом, открытым за более чем 200 лет.<br> <a href="https://habr.com/post/412723/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412723#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 11:00:02 GMT</pubDate>
+<dc:creator>SLY_G</dc:creator>
+<category>
+<![CDATA[ Химия ]]>
+</category>
+<category>
+<![CDATA[ Научно-популярное ]]>
+</category>
+<category>YInMn</category>
+<category>пигмент</category>
+<category>краситель</category>
+<category>синий</category>
+<category>голубой</category>
+<category>красный</category>
+</item>
+<item>
+<title>
+<![CDATA[ Дайджест IT-событий июня ]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412887/</guid>
+<link>
+https://habr.com/post/412887/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412887
+</link>
+<description>
+<![CDATA[
+На этот раз дело, похоже, обойдется без традиционного летнего периода затишья: июнь открывает сезон целой россыпью митапов по самым разным языкам и технологиям и неформатными мероприятиями вроде совместного просмотра трансляций и сеанса демонстрационного взлома офиса.<br>
+ <br>
+ <div style="text-align:center;"><img src="https://habrastorage.org/webt/nb/8p/aa/nb8paaitta7yrhttkgnek6hyvfw.jpeg"></div><br>
+ <a href="https://it-events.com/events/11818"><b>Геймдев-фестиваль DEVSGO</b></a><br>
+ <br>
+ <b>Когда:</b> 2 июня<br>
+ <b>Где:</b> Москва, ул. Трифоновcкая, 57, стр. 1<br>
+ <b>Условия участия:</b> бесплатно, требуется регистрация<br>
+ <br>
+ Геймдев-фестиваль от команды DevsGo при поддержке образовательных программ по игровой индустрии ВШБИ. В первую очередь, мероприятие рассчитано на начинающих разработчиков, которые хотят лучше разобраться в механике процессов и специфике индустрии. Из докладов участники узнают, как правильно вести переговоры и заводить связи, искать свою нишу на рынке, глубже понимать психологию игрока, довести проект до запуска, а также обсудят перспективы индустрии с маститыми гейм-дизанерами. Кроме того, в рамках фестиваля пройдет щоукейс, где будут представлены проекты инди-разработчиков и разыграны призы.<br> <a href="https://habr.com/post/412887/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412887#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 11:05:13 GMT</pubDate>
+<dc:creator>EverydayTools</dc:creator>
+<category>
+<![CDATA[ Хакатоны ]]>
+</category>
+<category>
+<![CDATA[ Учебный процесс в IT ]]>
+</category>
+<category>
+<![CDATA[ Конференции ]]>
+</category>
+<category>
+<![CDATA[ Блог компании Everyday Tools ]]>
+</category>
+<category>
+<![CDATA[ хакатоны ]]>
+</category>
+<category>
+<![CDATA[ конференции ]]>
+</category>
+<category>
+<![CDATA[ митапы ]]>
+</category>
+<category>
+<![CDATA[ семинары ]]>
+</category>
+<category>
+<![CDATA[ самообразование ]]>
+</category>
+<category>
+<![CDATA[ it сообщество ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[
+Алло, мы ищем фрилансеров: завтра открывается сезон поиска новой работы
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412925/</guid>
+<link>
+https://habr.com/post/412925/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412925
+</link>
+<description>
+<![CDATA[
+С первым днём лета, Хабр! Это не только сезон отпусков (кому повезло с начальством и не приходится отдыхать в феврале), но и лучшее время для поиска работы и новых заказчиков. К тому же, завтра суббота, поэтому, если вы: <br>
+ <br>
+ <ul>
+ <li>в Москве, </li>
+ <li>профессионал в Java, C# (.NET), Cloud, C++, Ruby on Rails, Test Automation </li>
+ <li>или менеджер разработки, специализирующийся на SaaS, Java, QA, Ruby on Rails или C# (.NET)</li>
+ </ul><br>
+ — нет причин не заглянуть на огонёк в коворкинг <a href="https://gravityspace.ru/">Gravity на Бауманской</a>. <br>
+ <br>
+ <img src="https://habrastorage.org/getpro/habr/post_images/0f4/138/6a5/0f41386a5e53df29229fe19302db94d8.png" alt="image"><br>
+ <i>Ужас, который можно будет забыть, перейдя на фриланс</i> <br>
+ <br>
+ Ровно в девять утра мы начинаем наш очередной турнир для сильнейших менеджеров и разработчиков. Турнир не имеет строгого ограничения по времени (кроме одного — мы о нем расскажем на самом мероприятии), но ориентировочно всех этапы занимают около 5-6 часов. <br>
+ <br>
+ <blockquote>Оффлайновые турниры Crossover — это глобальные мероприятия, которые проходят в один день по всему миру. Если вы читаете «Хабр» из <a href="https://crossoverkyivjune.eventbrite.com/?aff=Habr">Киева</a>, Варшавы, Будапешта, Бухареста, Буэнос-Айреса, Стамбула или Сан-Паулу — это значит, что завтра мы проводим турниры и в ваших городах. </blockquote> <a href="https://habr.com/post/412925/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412925#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 12:09:54 GMT</pubDate>
+<dc:creator>Crossover</dc:creator>
+<category>
+<![CDATA[ Хакатоны ]]>
+</category>
+<category>
+<![CDATA[ SaaS / S+S ]]>
+</category>
+<category>
+<![CDATA[ Ruby on Rails ]]>
+</category>
+<category>
+<![CDATA[ C# ]]>
+</category>
+<category>
+<![CDATA[ Блог компании Crossover ]]>
+</category>
+<category>
+<![CDATA[ crossover ]]>
+</category>
+<category>
+<![CDATA[ Chief Software Architect ]]>
+</category>
+<category>
+<![CDATA[ Software Engineering Manager ]]>
+</category>
+<category>
+<![CDATA[ hiring tournament ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[
+Определение плотности газа по результатам измерения давления и температуры датчиками Arduino
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412915/</guid>
+<link>
+https://habr.com/post/412915/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412915
+</link>
+<description>
+<![CDATA[
+<h3>Введение</h3><br>
+ Задача измерения параметров газовой смеси широко распространена в промышленности и торговле. Проблема получения достоверной информации при измерении параметров состояния газовой среды и её характеристик с помощью технических средств разрешается принятыми в стандартах методиками выполнения измерений (МВИ), например, при измерении расхода и количества газов с помощью стандартных сужающих устройств [1], или с помощью турбинных, ротационных и вихревых расходомеров и счётчиков [2]. <br>
+ <br>
+ Периодический газовый анализ позволяет установить соответствие между реальной анализируемой смесью и её моделью, по которой в МВИ учитываются физико-химические параметры газа: состав газовой смеси и плотность газа при стандартных условиях.<br>
+ Также в МВИ учитываются теплофизические характеристики газа: плотность при рабочих условиях (давление и температура газа, при которых выполняют измерение его расхода или объёма), вязкость, фактор и коэффициент сжимаемости.<br> <a href="https://habr.com/post/412915/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412915#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 11:13:40 GMT</pubDate>
+<dc:creator>Scorobey</dc:creator>
+<category>
+<![CDATA[ Разработка под Windows ]]>
+</category>
+<category>
+<![CDATA[ Разработка под Arduino ]]>
+</category>
+<category>
+<![CDATA[ Математика ]]>
+</category>
+<category>
+<![CDATA[ Анализ и проектирование систем ]]>
+</category>
+<category>
+<![CDATA[ Python ]]>
+</category>
+<category>
+<![CDATA[ плотность газа ]]>
+</category>
+<category>
+<![CDATA[ ардуино ]]>
+</category>
+<category>
+<![CDATA[ физика ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[
+Почта России начнет использовать роботов-сортировщиков. Как это будет работать
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412917/</guid>
+<link>
+https://habr.com/post/412917/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412917
+</link>
+<description>
+<![CDATA[
+<img src="https://habrastorage.org/webt/8x/fp/ql/8xfpqla3mjxx83zt2oha4gmngjo.jpeg"><br>
+ <br>
+ <p>Инженеры промышленного коворкинга Донского государственного технического университета (ДГТУ) будут создавать для ростовского филиала «Почты России» роботов-сортировщиков. На днях состоялось подписание соглашения о сотрудничестве между университетом и госмонополией. Проект автоматизированного сортировочного комплекса получит финансирование и поможет повысить эффективность распределения посылок. Название у группы машин выбрано соответствующее – «Ботольон».</p> <a href="https://habr.com/post/412917/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412917#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 11:21:22 GMT</pubDate>
+<dc:creator>Pochtoycom</dc:creator>
+<category>
+<![CDATA[ Робототехника ]]>
+</category>
+<category>
+<![CDATA[ Производство и разработка электроники ]]>
+</category>
+<category>
+<![CDATA[ Гиктаймс ]]>
+</category>
+<category>
+<![CDATA[ Блог компании Pochtoy.com ]]>
+</category>
+<category>
+<![CDATA[ почта россии ]]>
+</category>
+<category>
+<![CDATA[ alibaba ]]>
+</category>
+<category>
+<![CDATA[ amazon ]]>
+</category>
+<category>
+<![CDATA[ сша ]]>
+</category>
+<category>
+<![CDATA[ pochtoy ]]>
+</category>
+<category>
+<![CDATA[ роботы ]]>
+</category>
+<category>
+<![CDATA[ склад ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[ [Перевод] О значении доброжелательности в команде ]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/333462/</guid>
+<link>
+https://habr.com/post/333462/?utm_source=habrahabr&utm_medium=rss&utm_campaign=333462
+</link>
+<description>
+<![CDATA[
+<p>Эта статья в блоге проекта CircleCI о культуре общения в среде разработчиков ПО неожиданно глубоко срезонировала с моими личными ценностями, и я решил, что лучший способ распространить эти ценности и найти единомышленников — сделать и опубликовать перевод.</p> <a href="https://habr.com/post/333462/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=333462#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 10:52:06 GMT</pubDate>
+<dc:creator>SergeAx</dc:creator>
+<category>
+<![CDATA[ Управление разработкой ]]>
+</category>
+<category>
+<![CDATA[ Управление персоналом ]]>
+</category>
+<category>культура общения</category>
+</item>
+<item>
+<title>
+<![CDATA[
+Веста Матвеева: борьба с киберпреступностью – это моральный выбор
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412895/</guid>
+<link>
+https://habr.com/post/412895/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412895
+</link>
+<description>
+<![CDATA[
+<b>Знакомьтесь: </b>Веста Матвеева – эксперт в области информационной безопасности Group-IB. <br>
+ <br>
+ <b>Специализация:</b> расследование киберпреступлений.<br>
+ <br>
+ <b>Чем известна:</b> Веста регулярно участвует не только в расследованиях, но и в задержаниях, допросах и обысках участников хакерских групп. За 6 лет провела десятки экспертиз — технических разборов инцидентов в роли криминалиста, после чего перешла в отдел расследований Group-IB, успешно раскрыла несколько дел и продолжает работать в этом направлении.<br> <a href="https://habr.com/post/412895/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412895#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 07:33:41 GMT</pubDate>
+<dc:creator>EditorGIB</dc:creator>
+<category>
+<![CDATA[ Блог компании «Group-IB» ]]>
+</category>
+<category>
+<![CDATA[ информационная безопасность ]]>
+</category>
+<category>
+<![CDATA[ расследования ]]>
+</category>
+<category>
+<![CDATA[ компьютерные преступления ]]>
+</category>
+<category>
+<![CDATA[ вирусы ]]>
+</category>
+<category>
+<![CDATA[ хакеры ]]>
+</category>
+<category>
+<![CDATA[ компьютерная криминалистика ]]>
+</category>
+<category>
+<![CDATA[ group-ib ]]>
+</category>
+<category>
+<![CDATA[ веста матвеева ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[ «Байкал-T1» поступил в продажу за 3990 руб ]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412913/</guid>
+<link>
+https://habr.com/post/412913/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412913
+</link>
+<description>
+<![CDATA[
+<img src="https://habrastorage.org/webt/pe/ob/nu/peobnu17fw_c6kpkx6ln269dyw4.jpeg"><br>
+ <br>
+ Процессоры BE-T1000 (они же «Байкал-Т1») <a href="https://www.chipdip.ru/product0/9000481202">поступили в магазины</a> электронных компонентов в и приборов. Дистрибуцией занимается сеть розничных магазинов «Чип и Дип». Сейчас в интернет-магазине указано, что поставка на склад в Москве ожидается 8 июня 2018 года в количестве 42 штуки. Процессор уже можно добавить в корзину по цене 3990 руб.<br>
+ <br>
+ Розничные продажи «Байкалов» начались в апреле 2018 года, но только в составе оценочных плат BFK3.1 — фактически одноплатных компьютеров для разработки системного и прикладного программного обеспечения, проектирования и прототипирования аппаратных решений и пр. Теперь процессор продаётся и отдельно.<br> <a href="https://habr.com/post/412913/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412913#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 10:35:34 GMT</pubDate>
+<dc:creator>alizar</dc:creator>
+<category>
+<![CDATA[ Процессоры ]]>
+</category>
+<category>
+<![CDATA[ DIY или Сделай сам ]]>
+</category>
+<category>
+<![CDATA[ Байкал-Т1 ]]>
+</category>
+<category>
+<![CDATA[ BE-T1000 ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[ Больше чем Форд ]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412833/</guid>
+<link>
+https://habr.com/post/412833/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412833
+</link>
+<description>
+<![CDATA[
+Генри Форд считается иконой современного промышленного производства. Вы, конечно, знаете, что конвейер изобрел не он, но именно Форд первым реализовал массовое конвейерное производство. В 1930-х годах на его заводе в <a href="https://en.wikipedia.org/wiki/Ford_River_Rouge_Complex">Руж</a> работало более ста тысяч человек, и это в период Великой депрессии. <br>
+ <br>
+ А вот имя Чарльза Аллена практически никому не известно. При этом влияние идей Аллена на развитие промышленной индустрии, вероятно, даже более значимо, чем влияние Форда. Некоторые из его идей будут полезны и в современном IT.<br>
+ <br>
+ <img src="https://habrastorage.org/webt/zz/ww/cn/zzwwcns3ulqpub8mh0yiuymvzss.jpeg"><br> <a href="https://habr.com/post/412833/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412833#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 08:05:17 GMT</pubDate>
+<dc:creator>dm_wrike</dc:creator>
+<category>
+<![CDATA[ Учебный процесс в IT ]]>
+</category>
+<category>
+<![CDATA[ Управление персоналом ]]>
+</category>
+<category>
+<![CDATA[ Развитие стартапа ]]>
+</category>
+<category>
+<![CDATA[ Блог компании Wrike ]]>
+</category>
+<category>
+<![CDATA[ ford ]]>
+</category>
+<category>
+<![CDATA[ wrike ]]>
+</category>
+<category>
+<![CDATA[ wriketechclub ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[ Мониторинг Atlassian продуктов с Prometheus ]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412897/</guid>
+<link>
+https://habr.com/post/412897/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412897
+</link>
+<description>
+<![CDATA[
+<h3>Введение</h3><br>
+ Всем привет! Сегодня мы поговорим о real-time мониторинге <i>Atlassian</i> продуктов.<br>
+ <br>
+ Для начала давайте определим, что такое мониторинг, и зачем он необходим для <i>Atlassian</i> продуктов.<br>
+ <br>
+ Мониторинг программ применяется для отслеживания хода и результатов работы программы. Другими словами — это процесс, который в режиме реального времени может отображать информацию о состоянии программного продукта.<br>
+ <br>
+ Когда это может быть полезно для <i>Atlassian</i> продуктов?<br>
+ <br>
+ Рассмотрим примеры:<br>
+ <br>
+ <ul>
+ <li>Вы хотите знать, как обновление продукта или плагина влияет на производительность системы;</li>
+ <li>Вы хотите знать о состоянии железа и памяти при различных условиях и в определенные моменты времени. Например, как увеличение числа пользователей или смена времени суток влияет на систему;</li>
+ <li>Вы хотите наблюдать, насколько активно используется система в целом. Например, общее количество задач в <i>Jira</i> или за 1 час;</li>
+ <li>Вы хотите поставить напоминание на дату истечения срока лицензии;</li>
+ <li>Вам бы хотелось знать объем дискового пространства, используемого для хранения документов.</li>
+ </ul><br>
+ Также хотелось бы не только получать информацию в подготовленном виде, но и иметь возможность отправлять уведомления, если что-то происходит по ошибочному сценарию. Здесь нам и помогут <i>Prometheus</i> и его экспортеры для <i>Atlassian</i> продуктов.<br> <a href="https://habr.com/post/412897/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412897#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 08:13:43 GMT</pubDate>
+<dc:creator>Andrey_V_Markelov</dc:creator>
+<category>
+<![CDATA[ Серверное администрирование ]]>
+</category>
+<category>
+<![CDATA[ Atlassian ]]>
+</category>
+<category>
+<![CDATA[ jira ]]>
+</category>
+<category>
+<![CDATA[ confluence ]]>
+</category>
+<category>
+<![CDATA[ prometheus ]]>
+</category>
+<category>
+<![CDATA[ grafana ]]>
+</category>
+<category>
+<![CDATA[ мониторинг ]]>
+</category>
+<category>
+<![CDATA[ atlassian ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[
+Про LL-парсинг: Подход к синтаксическому анализу через концепцию нарезания строки
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412905/</guid>
+<link>
+https://habr.com/post/412905/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412905
+</link>
+<description>
+<![CDATA[
+Приветствую уважаемое сообщество!<br>
+ <br>
+ Повторение — мать учения, а разбираться в синтаксическом анализе — очень полезный навык для любого программиста, поэтому хочу еще раз поднять эту тему и поговорить в этот раз про анализ методом рекурсивного спуска (LL), обойдясь без лишних формализмов (к ним потом всегда можно будет вернуться).<br>
+ <br>
+ Как пишет великий Д. Строгов, «понять — значит упростить». Поэтому, чтобы понять концепцию синтаксического разбора методом рекурсивного спуска (оно же LL-парсинг), упростим задачу насколько можно и вручную напишем синтаксический анализатор формата, похожего на JSON, но более простого (при желании можно будет потом его расширить до анализатора полноценного JSON, если захочется поупражняться). Напишем его, взяв за основу идею <b>нарезания строки</b>.<br> <a href="https://habr.com/post/412905/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412905#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 09:50:36 GMT</pubDate>
+<dc:creator>klvov</dc:creator>
+<category>
+<![CDATA[ Программирование ]]>
+</category>
+<category>
+<![CDATA[ Компиляторы ]]>
+</category>
+<category>
+<![CDATA[ Алгоритмы ]]>
+</category>
+<category>
+<![CDATA[ синтаксический анализ ]]>
+</category>
+<category>
+<![CDATA[ LL ]]>
+</category>
+<category>
+<![CDATA[ LR ]]>
+</category>
+<category>
+<![CDATA[ парсинг ]]>
+</category>
+<category>
+<![CDATA[ для чайников ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[
+Догуглиться до senior-программиста за четыре года: метод «Школы 21»
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412893/</guid>
+<link>
+https://habr.com/post/412893/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412893
+</link>
+<description>
+<![CDATA[
+Есть один простой способ научить человека плавать: добираетесь с ним туда, где поглубже, и бросаете в воду. Эффективность может быть колоссальной. В 2013 году в Париже была открыта частная некоммерческая школа программирования L’Ecole 42 (Школа 42), использующая аналогичный подход. Отсутствие учителей и строгого учебного плана — лишь глубокий проектный омут с дедлайнами на дне. Аналогичные школы открыли в Калифорнии, Румынии, Южной Африке, Украине, и практически везде проект стал успешным.<br>
+ <br>
+ В России при поддержке Сбербанка открывается «Школа 21», использующая такой же подход. И в этом посте мы расскажем о ней абстрактному скептику.<br>
+ <br>
+ <img src="https://habrastorage.org/webt/bu/gm/rl/bugmrl2hyyubaxzntf9idljs7mc.jpeg"><br>
+ <i>Студенты Школы 42. Фото San Francisco Chronicle </i><br> <a href="https://habr.com/post/412893/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412893#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 07:29:25 GMT</pubDate>
+<dc:creator>Sberbank</dc:creator>
+<category>
+<![CDATA[ Учебный процесс в IT ]]>
+</category>
+<category>
+<![CDATA[ Карьера в IT-индустрии ]]>
+</category>
+<category>
+<![CDATA[ Блог компании Сбербанк ]]>
+</category>
+<category>
+<![CDATA[ Сбербанк ]]>
+</category>
+<category>
+<![CDATA[ Школа 21 ]]>
+</category>
+<category>
+<![CDATA[ Школа 42 ]]>
+</category>
+<category>
+<![CDATA[ обучение программированию ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[
+«Чтение на выходные»: 30 материалов о звуке, истории аудиобрендов и киноиндустрии
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412899/</guid>
+<link>
+https://habr.com/post/412899/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412899
+</link>
+<description>
+<![CDATA[
+Впереди выходные, и мы решили сделать для вас подборку материалов из нашего «<a href="https://www.audiomania.ru/mirhifi/">Мир Hi-Fi</a>». Посты под катом посвящены интересным фактам о звуке, музыке в кино, а также истории становления культовых аудиобрендов. В частности, расскажем, как придумали звук светового меча, какова судьба завода «Радиотехника» и как считать звук с пачки из-под чипсов.<br>
+ <br>
+ <a href="https://habr.com/company/audiomania/blog/412899/"><img src="https://habrastorage.org/webt/nl/h0/ni/nlh0nisju8eifqupqn2ol3ds_je.jpeg"></a> <a href="https://habr.com/post/412899/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412899#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 07:43:38 GMT</pubDate>
+<dc:creator>Audioman</dc:creator>
+<category>
+<![CDATA[ Периферия ]]>
+</category>
+<category>
+<![CDATA[ Звук ]]>
+</category>
+<category>
+<![CDATA[ Гиктаймс ]]>
+</category>
+<category>
+<![CDATA[ Гаджеты ]]>
+</category>
+<category>
+<![CDATA[ Блог компании Аудиомания ]]>
+</category>
+<category>
+<![CDATA[ аудиомания ]]>
+</category>
+<category>
+<![CDATA[ звук ]]>
+</category>
+<category>
+<![CDATA[ аудиотехника ]]>
+</category>
+<category>
+<![CDATA[ аудиогаджеты ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[
+Жёсткие диски испортили звуком с обычных динамиков ноутбука
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412873/</guid>
+<link>
+https://habr.com/post/412873/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412873
+</link>
+<description>
+<![CDATA[
+<img src="https://habrastorage.org/getpro/habr/post_images/b45/699/e4b/b45699e4b12b281a17ce9a67434344ae.jpg"><br>
+ <br>
+ Используя обычный звук и ультразвук, злоумышленники могут нарушать процесс чтения или записи данных жестким диском. Также этот метод можно использовать для нарушения запуска операционной системы, а в некоторых случаях — и для повреждения винчестеров. Такой вывод сделала группа специалистов по информационной безопасности на основе серии собственных экспериментов. <br>
+ <br>
+ При этом особо сложные устройства не нужны, подходят едва ли не подручные средства. Для того, чтобы выполнить звуковую атаку, нужны локальные источники звука, целью которых будет жесткий диск. Источником могут быть обычные недорогие колонки или даже динамики ноутбука. Атака осуществляется следующим образом: жертва посещает некий сайт или же получает сообщение со звуковым файлом внутри. Зайдя на сайт или открыв сообщение, звук начинает воспроизводиться, и жесткий диск компьютера пользователя выходит из строя. <br> <a href="https://habr.com/post/412873/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412873#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Thu, 31 May 2018 19:55:26 GMT</pubDate>
+<dc:creator>marks</dc:creator>
+<category>
+<![CDATA[ Компьютерное железо ]]>
+</category>
+<category>
+<![CDATA[ Информационная безопасность ]]>
+</category>
+<category>
+<![CDATA[ hdd ]]>
+</category>
+<category>
+<![CDATA[ жесткие диски ]]>
+</category>
+<category>
+<![CDATA[ информационная безопасность ]]>
+</category>
+<category>
+<![CDATA[ звук ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[
+Пленка все: Canon прекратила продажи пленочных камер
+]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412875/</guid>
+<link>
+https://habr.com/post/412875/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412875
+</link>
+<description>
+<![CDATA[
+<img src="https://habrastorage.org/getpro/habr/post_images/d40/6ec/e79/d406ece79c82d39bf05582123b0a59eb.jpg"><br>
+ <br>
+ Компания Canon <a href="http://cweb.canon.jp/e-support/products/eos/180530eos1v-end.html">вчера сообщила</a> о прекращении продаж последней модели пленочной камеры EOS-1v. Это профессиональная камера, которая появилась в 2000-м году. Производство этой модели было остановлено в 2010, и до настоящего момента японская компания распродавала камеры со своих складов.<br>
+ <br>
+ Правда, техническая поддержка будет активна и далее, вплоть до 2025. Canon после 31 октября 2020 года оставляет за собой право отказать в ремонте, если в наличии не окажется нужных комплектующих. <br> <a href="https://habr.com/post/412875/#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 10:10:20 GMT</pubDate>
+<dc:creator>marks</dc:creator>
+<category>
+<![CDATA[ Фототехника ]]>
+</category>
+<category>
+<![CDATA[ История IT ]]>
+</category>
+<category>
+<![CDATA[ фотокамеры ]]>
+</category>
+<category>
+<![CDATA[ пленочные зеркалки ]]>
+</category>
+<category>
+<![CDATA[ canon eos ]]>
+</category>
+</item>
+<item>
+<title>
+<![CDATA[ See, watch, look: в чем разница? ]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/412821/</guid>
+<link>
+https://habr.com/post/412821/?utm_source=habrahabr&utm_medium=rss&utm_campaign=412821
+</link>
+<description>
+<![CDATA[
+Мы продолжаем серию статей о синонимах, которые могут сбить с толку начинающего изучать английский. Да что уж там, сегодня в нашу подборку затесался чрезвычайно продуктивный глагол look, который образовывает с добрый десяток фразовых глаголов с разными значениями. Но обо всем по порядку.<br>
+ <br>
+ <img src="https://habrastorage.org/webt/8d/im/uu/8dimuux0bxmjpxvvvegyboempus.jpeg" alt="image"> <br> <a href="https://habr.com/post/412821/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=412821#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 01 Jun 2018 08:47:17 GMT</pubDate>
+<dc:creator>PuzzleEnglish</dc:creator>
+<category>
+<![CDATA[ Изучение языков ]]>
+</category>
+<category>
+<![CDATA[ Гиктаймс ]]>
+</category>
+<category>
+<![CDATA[ Блог компании Puzzle English ]]>
+</category>
+<category>
+<![CDATA[ английский язык ]]>
+</category>
+<category>
+<![CDATA[ английский ]]>
+</category>
+<category>
+<![CDATA[ английский язык онлайн ]]>
+</category>
+<category>
+<![CDATA[ английский онлайн ]]>
+</category>
+<category>
+<![CDATA[ английский обучение языки ]]>
+</category>
+</item>
+</channel>
+</rss>
